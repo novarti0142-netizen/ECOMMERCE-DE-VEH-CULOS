@@ -145,7 +145,7 @@ document.addEventListener('DOMContentLoaded', () => {
     doc.setFont('helvetica', 'bold');
     doc.setFontSize(20);
     doc.setTextColor(0, 102, 204); // Azul
-    doc.text('Factura de Compra - Garage Online', 105, 20, { align: 'center' });
+    doc.text('Factura de Compra - PrimeAuto Gallery', 105, 20, { align: 'center' });
 
     // Línea separadora
     doc.setLineWidth(0.5);
@@ -190,10 +190,11 @@ document.addEventListener('DOMContentLoaded', () => {
     doc.setFont('helvetica', 'italic');
     doc.setFontSize(10);
     doc.setTextColor(128, 128, 128); // Gris
-    doc.text('Gracias por su compra en Garage Online. ¡Esperamos verle pronto!', 105, finalY + 20, { align: 'center' });
+    doc.text('Gracias por su compra en PrimeAuto Gallery. ¡Esperamos verle pronto!', 105, finalY + 20, { align: 'center' });
 
     doc.save('factura.pdf');
 };
 
     loadVehicles();
 });
+
